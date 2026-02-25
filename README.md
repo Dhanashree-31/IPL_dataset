@@ -13,17 +13,6 @@ A complete data science project that analyzes IPL historical match data and buil
 
 ---
 
-## 📂 Project Structure
-ipl-data-analysis/
-│
-├── ipl_data_analysis.ipynb # Main Jupyter Notebook (EDA + ML pipeline)
-├── data/ # Raw & processed IPL datasets
-├── models/ # Saved trained models (optional)
-└── README.md # Project documentation
-
-
----
-
 ## 🧠 Models Used
 
 | Model         | Description                     |
@@ -79,7 +68,11 @@ Random Forest is selected as the final production model for this dataset.
 ### Step 1: Install Dependencies
 ```bash
 pip install pandas numpy scikit-learn xgboost matplotlib seaborn
-Step 2: Run Notebook
+```
+
+---
+
+### Step 2: Run Notebook
 
 jupyter notebook ipl_data_analysis.ipynb
 
